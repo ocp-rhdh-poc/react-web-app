@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "${{ values.name }}"
+  description: "react app"
+  annotations:
+    github.com/project-slug: "ocp-rhdh-poc/${{ values.name }}"
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/rhdh"
