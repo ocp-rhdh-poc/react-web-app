@@ -8,8 +8,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-namespace: "${{ values.namespace }}"
     backstage.io/kubernetes-id: "${{ values.name }}"
-    janus-idp.io/tekton: "${{ values.name }}"
-    backstage.io/kubernetes-label-selector: "deployment=${{ values.name }}"
+    janus-idp.io/tekton: "${{ values.name }}" 
   links:
     - title: Documentation
       url: "https://github.com/ocp-rhdh-poc/${{ values.name }}"
