@@ -10,6 +10,7 @@ metadata:
     backstage.io/kubernetes-id: "${{ values.name }}"
     janus-idp.io/tekton: "${{ values.name }}" 
     argocd/app-selector: "app.kubernetes.io/instance=${{ values.name }}-bootstrap"
+    rhdh.app: "${{ values.name }}"
   links:
     - title: Documentation
       url: "https://github.com/ocp-rhdh-poc/${{ values.name }}"
